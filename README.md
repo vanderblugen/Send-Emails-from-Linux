@@ -1,6 +1,7 @@
 # send-email-from-linux
-This information was obtained from https://medium.com/swlh/setting-up-gmail-and-other-email-on-a-raspberry-pi-6f7e3ad3d0e
-This configuration uses Gmail as the email carrier.  Need to enable less secure email or enable 2 factor with app passwords for this configuration to work.
+This information was obtained from [here](https://medium.com/swlh/setting-up-gmail-and-other-email-on-a-raspberry-pi-6f7e3ad3d0e) for my enjoyment.  This has been tested on a Raspbery pi and an Ubuntu machine.  Works on both.  I accept no responsibility on if this works or not.  
+
+This configuration uses Gmail as the email carrier.  It will work with others, just used gmail in this configuration.  Less secure apps or 2 factor with app passwords needs to be enabled for this configuration to work.
 
 ## Install needed apps
 ```shell
