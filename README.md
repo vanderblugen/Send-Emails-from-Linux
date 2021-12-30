@@ -50,3 +50,9 @@ smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 ```
 
 Exit and Save with `Ctrl+X` and `Enter`
+
+## Send a test email
+
+```shell
+echo "Subject: Test Email Subject" | mail -a test_email@address.com < echo "Here is a test email"
+```
