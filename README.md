@@ -47,3 +47,5 @@ smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd
 # Where to find the certificate authority (CA) certificates.
 smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 ```
+
+Exit and Save with `Ctrl+X` and `Enter`
