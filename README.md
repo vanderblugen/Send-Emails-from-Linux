@@ -54,6 +54,12 @@ smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 
 Exit and Save with `Ctrl+X` and `Enter`
 
+## Restart Postfix
+
+```shell
+sudo service postfix restart
+```
+
 ## Send a test email
 
 ```shell
