@@ -1,10 +1,11 @@
 # send-email-from-linux
 This information was obtained from https://medium.com/swlh/setting-up-gmail-and-other-email-on-a-raspberry-pi-6f7e3ad3d0e
+This configuration uses Gmail as the email carrier.  Need to enable less secure email or enable 2 factor with app passwords for this configuration to work.
 
 ## Install needed apps
 ```shell
 sudo apt install postfix libsasl2-modules mailutils -y
-'''
+```
 
 Select internet site on installation
 
