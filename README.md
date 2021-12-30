@@ -14,7 +14,7 @@ Select internet site on installation
 sudo nano -B /etc/postfix/sasl/sasl_passwd
 ```
 
-Add 'smtp.gmail.com:587 username@gmail.com:password' with the appropriate information
+Add `smtp.gmail.com:587 username@gmail.com:password` with the appropriate information
 `Crtl+X' and `Enter` to save and exit
 
 ## Update the password file
