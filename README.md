@@ -15,6 +15,7 @@ sudo nano -B /etc/postfix/sasl/sasl_passwd
 ```
 
 Add `smtp.gmail.com:587 username@gmail.com:password` with the appropriate information
+
 `Crtl+X' and `Enter` to save and exit
 
 ## Update the password file
@@ -29,12 +30,11 @@ sudo cp /etc/postfix/main.cf !#$.dist
 sudo nano /etc/postfix/main.cf
 ```
 
-Change `relayhost = `
-to `relayhost = smtp.gmail.com:587`
+Change `relayhost = ` to `relayhost = smtp.gmail.com:587`
 
 Change `smtp_tls_security_level=may` to `#smtp_tls_security_level=may`
 
-Add this onto the bottom
+Add this at the bottom
 
 ```shell
 # Enable authentication using SASL.
