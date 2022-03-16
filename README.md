@@ -7,7 +7,7 @@ This configuration uses Gmail as the email carrier.  It will work with others, j
 
 ## Install needed apps
 ```shell
-sudo apt install postfix libsasl2-modules mailutils -y
+sudo apt-get install postfix libsasl2-modules mailutils -y
 ```
 
 Select internet site on installation
