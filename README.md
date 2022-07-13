@@ -1,4 +1,4 @@
-# Send Emails from Linux
+# Send Emails from Linux with Postfix
 This is for configuring Linux to be able to send emails.
 
 This information was obtained from [here](https://medium.com/swlh/setting-up-gmail-and-other-email-on-a-raspberry-pi-6f7e3ad3d0e) for my enjoyment.  This has been tested on a Raspbery pi and an Ubuntu machine.  Works on both.  I accept no responsibility on if this works or not.  
